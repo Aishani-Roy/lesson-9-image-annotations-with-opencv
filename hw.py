@@ -40,8 +40,8 @@ cv2.putText(image_rgb, 'Center 2', (center2_x - 40, center2_y + 40), font, 0.6, 
 arrow_start=(width-50,20)
 arrow_end=(width-50,height-20)
 
-arrow_start1 = (20, height - 50)
-arrow_end1 = (width - 20, height - 50)
+arrow_start1 = (20, 50)
+arrow_end1 = (width - 20, 50)
 
 cv2.arrowedLine(image_rgb,arrow_start,arrow_end,(255,255,0),3,tipLength=0.05)
 cv2.arrowedLine(image_rgb,arrow_end,arrow_start,(255,255,0),3,tipLength=0.05)
